@@ -1,0 +1,60 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+p,h1, h2, h3, caption,title, table {
+font-family: "Arial Black", Gadget, sans-serif;
+}
+h1 {
+font-size: 4em;
+}
+h2 {
+font-size: 2.5em;
+}
+caption {
+font-size: 1.75em;
+}
+* {
+  background-color: #C0C0C0;
+}
+table, th, td {
+    border: 1px solid black;
+}
+.intro {
+  display: block;
+    margin: auto;
+    width: 70%;
+}
+.ss {
+display: block;
+  margin: auto;
+  width: 70%;
+
+}
+.gt {
+display: block;
+  margin: auto;
+  width: 70%;
+}
+.ta {
+display: block;
+  margin: auto;
+  width: 70%;
+}
+h1 {
+text-align: center;
+}
+h2 {
+text-align: center;
+}
+table {
+  margin: auto;
+}
+
+ul, li, .links {
+text-align: center;
+}
