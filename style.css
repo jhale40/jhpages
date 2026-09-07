@@ -6,55 +6,54 @@
     box-sizing: border-box;
 }
 
-p,h1, h2, h3, caption,title, table {
-font-family: "Arial Black", Gadget, sans-serif;
+/* Page background color */
+body {
+    background-color: #C0C0C0;
 }
+
+/* Font */
+p, h1, h2, h3, caption, title, table {
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
 h1 {
-font-size: 4em;
+    font-size: 4em;
+    text-align: center;
 }
+
 h2 {
-font-size: 2.5em;
+    font-size: 2.5em;
+    text-align: center;
 }
+
 caption {
-font-size: 1.75em;
+    font-size: 1.75em;
 }
-* {
-  background-color: #C0C0C0;
+
+/* Tables */
+table {
+    margin: auto;
 }
+
 table, th, td {
     border: 1px solid black;
 }
+
+/* Introduction */
 .intro {
-  display: block;
+    display: block;
     margin: auto;
     width: 70%;
 }
-.ss {
-display: block;
-  margin: auto;
-  width: 70%;
 
-}
-.gt {
-display: block;
-  margin: auto;
-  width: 70%;
-}
-.ta {
-display: block;
-  margin: auto;
-  width: 70%;
-}
-h1 {
-text-align: center;
-}
-h2 {
-text-align: center;
-}
-table {
-  margin: auto;
+/* Car Images */
+.ss, .gt, .ta {
+    display: block;
+    margin: auto;
+    width: 70%;
 }
 
+/* List of Car links */
 ul, li, .links {
-text-align: center;
+    text-align: center;
 }
